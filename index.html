@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kashish portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style.css"/>  -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(0, 0, 7);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(4, 4, 54);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(156, 154, 179);
+            font-size: 1.05rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2;
+            margin: 40px 84px;
+        }
+
+
+        .left {
+            font-size: 1.3rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 180px 0;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.0rem;
+            margin: 50px 10;
+
+        }
+
+        .rightSection img {
+            width: 70%;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-text {
+            position: relative;
+            top: 85px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+
+
+        .vertical-desc {
+            position: relative;
+            top: 75px;
+            width: 150px;
+
+        }
+
+        .vertical-docs {
+            position: relative;
+            top: 85px;
+            width: 150px;
+            color: gray;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #1D0F1D;
+            
+            height: 250px;
+
+        }
+
+        .footer-first {
+            display: flex;
+            padding: 20px 50px;
+
+
+        }
+
+        .footer-second {
+
+            margin: -8px 100px;
+        }
+
+        .footer-third {
+            margin: -50px 550px;
+        }
+
+        .footer-fourth {
+            margin: 0px 1000px;
+        }
+
+        .text-center {
+            text-align: center;
+            color: gray;
+            margin: 40px;
+            font-size: 0.7rem;
+            padding: 5px -5;
+
+        }
+
+        .leftSection .button {
+            padding: 15px;
+
+        }
+
+        .leftSection .btn {
+            padding: 10px;
+            background-color: rgb(73, 63, 100);
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Kashish's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Home </a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Kashish Gautam</span>
+
+                <div> and I am a passionate </div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn"> Visit Github</button>
+                </div>
+
+            </div>
+            <div class="rightSection">
+                <img src="bgp.png" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <!-- secondsection -->
+        <section class="secondSection">
+            <span class="text-gray"> What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+
+
+                <div class="vertical">
+                    <div class="vertical-title"> HTML Developer (January-decemeber) 2022</div>
+                    <div class="vertical-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus facere eos distinctio
+                        repellendus necessitatibus doloribus culpa excepturi ipsam magnam officiis,
+                        error commodi odit dolorum.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-desc"> CSS Developer (January-june) 2023</div>
+
+                    <div class="vertical-docs">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique provident quis libero minima
+                        sint illum incidunt repudiandae? Similique eligendi velit maiores vel soluta facere!
+                    </div>
+
+
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title"> HTML Developer (January-decemeber) 2022</div>
+                    <div class="vertical-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus facere eos distinctio
+                        repellendus necessitatibus doloribus culpa excepturi ipsam magnam officiis,
+                        error commodi odit dolorum.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <div class="vertical-title"> HTML Developer (January-decemeber) 2022</div>
+                    <div class="vertical-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus facere eos distinctio
+                        repellendus necessitatibus doloribus culpa excepturi ipsam magnam officiis,
+                        error commodi odit dolorum.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title"> HTML Developer (January-decemeber) 2022</div>
+                    <div class="vertical-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus facere eos distinctio
+                        repellendus necessitatibus doloribus culpa excepturi ipsam magnam officiis,
+                        error commodi odit dolorum.
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <div class="footer-first">
+                <h3>Kashish's developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Address</li>
+                    <li>Delhi</li>
+
+
+                </ul>
+
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Contact</li>
+                    <li>9149261273</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+
+                <ul>
+                    <li>email</li>
+                    <li>kashishgautamtdl22@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            Copyright &#169; www.kashishportfolio.com |All right reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
